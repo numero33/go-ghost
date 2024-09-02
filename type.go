@@ -50,6 +50,7 @@ type Post struct {
 	TwitterDescription *string    `json:"twitter_description,omitempty"`
 	CustomTemplate     *string    `json:"custom_template,omitempty"`
 	PrimaryAuthor      *Author    `json:"primary_author,omitempty"`
+	Authors            *[]Author  `json:"authors,omitempty"`
 	PrimaryTag         *Tag       `json:"primary_tag,omitempty"`
 	URL                *string    `json:"url,omitempty"`
 	Excerpt            *string    `json:"excerpt,omitempty"`
